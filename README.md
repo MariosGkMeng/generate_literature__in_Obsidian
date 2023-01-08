@@ -26,7 +26,9 @@ path:: C:\Users\UserName\...\LiteratureFolders
 
 3. Change the data that you copied (from the 1 step of this subsection) so that they correspond to your paths
 
-4. Make sure that the script's PATH is a higher level path than the Literature Path
+## Make sure that ...
+
+1. The script's PATH is a higher level path than the Literature Path
 
 
 
