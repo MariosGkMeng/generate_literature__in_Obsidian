@@ -32,6 +32,10 @@ path:: C:\Users\UserName\...\LiteratureFolders
 
 
 
+# How to use
+
+1. Move your new .pdf (or other readable format) file in your Literature Folder
+a. Name it using the format: str(pdfNumber) + '.' + titleOfArticle + '.pdf'
 
 
 
