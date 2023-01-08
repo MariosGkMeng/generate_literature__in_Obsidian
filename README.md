@@ -2,8 +2,7 @@
 Generates an Obsidian note that corresponds to a literature file (such as a .pdf article) and uses custom fields
 
 
-# What you'll need
-
+# Prior Steps
 ## Start with Obsidian
 
 1. Install: Go to https://obsidian.md/ and download the free software
