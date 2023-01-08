@@ -11,12 +11,13 @@ Generates an Obsidian note that corresponds to a literature file (such as a .pdf
 
 ## Create a separate note file
 
-1. Copy and paste the following text to a new note:
+1. Copy and paste the following text to a new note (we will call it the "Trigger File"):
 
 ```
 pub:: [[p1]]
 path:: C:\Users\UserName\...\LiteratureFolders
 
+⬇️ Press the button below to generate the literature note-file
 [👉🏼 generate_pub_md](<file:///C:\Users\UserName\...\generate_literature_md.py>)
 ```
 2. Rename that note using name:
@@ -35,7 +36,13 @@ path:: C:\Users\UserName\...\LiteratureFolders
 # How to use
 
 1. Move your new .pdf (or other readable format) file in your Literature Folder
-a. Name it using the format: str(pdfNumber) + '.' + titleOfArticle + '.pdf'
+2. Rename it using the format: str(pdfNumber) + '.' + titleOfArticle + '.pdf', wherein `pdfNumber` is the ascending pdf sequence number (e.g. the 10th pdf you placed in your folder starts with "10. ").
+3. Go to Obsidian and open the Trigger File
+4. Change the publication number to the `pdfNumber` value (e.g. `pub:: [p10]`)
+5. Press the link/button `👉🏼 generate_pub_md`. 
+6. Wait for ~1 second
+7. Notice that the text "p10" will be available now (the link color is brighter). Click on it
+8. That's it! Now you have your literature-note-file, which you can manipulate the way you want
 
 
 
