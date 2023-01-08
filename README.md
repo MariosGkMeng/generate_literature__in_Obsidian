@@ -11,15 +11,25 @@ Generates an Obsidian note that corresponds to a literature file (such as a .pdf
 
 ## Create a separate note file
 
-Copy and paste the following to a new note:
+1. Copy and paste the following text to a new note:
 
-%% Start
 ```
 pub:: [[p1]]
 path:: C:\Users\UserName\...\LiteratureFolders
 
 [👉🏼 generate_pub_md](<file:///C:\Users\UserName\...\generate_literature_md.py>)
 ```
-%% End
+2. Rename that note using name:
+- "CMD__GET_PUB.md" or
+- a name of your choosing, but then you will have to change the corresponding name into the python script
+
+
+3. Change the data that you copied (from the 1 step of this subsection) so that they correspond to your paths
+
+4. Make sure that the script's PATH is a higher level path than the Literature Path
+
+
+
+
 
 
