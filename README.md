@@ -14,12 +14,12 @@ Generates an Obsidian note that corresponds to a literature file (such as a .pdf
 Copy and paste the following to a new note:
 
 %% Start
-
+```
 pub:: [[p1]]
 path:: C:\Users\UserName\...\LiteratureFolders
 
 [👉🏼 generate_pub_md](<file:///C:\Users\UserName\...\generate_literature_md.py>)
-
+```
 %% End
 
 
